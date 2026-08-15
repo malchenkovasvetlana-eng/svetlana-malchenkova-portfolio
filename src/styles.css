@@ -1,10 +1,9 @@
 @font-face{font-family:"Portfolio Display";src:url("fonts/bebas-display.ttf") format("truetype");font-style:normal;font-weight:800;font-display:swap}
 @font-face{font-family:"Portfolio Sans";src:url("fonts/onest-light.ttf") format("truetype");font-style:normal;font-weight:300;font-display:swap}
 @font-face{font-family:"Portfolio Sans";src:url("fonts/onest-extra-bold.ttf") format("truetype");font-style:normal;font-weight:800;font-display:swap}
-@font-face{font-family:"Portfolio Script";src:url("fonts/signpainter.ttc") format("truetype");font-style:normal;font-weight:400;font-display:swap}
 
 :root{
-  --ink:oklch(0.96 0.01 290);--muted:oklch(0.74 0.025 292);--violet:oklch(0.58 0.19 292);--lavender:oklch(0.80 0.08 292);--bg:oklch(0.10 0 0);--surface:oklch(0.17 0.015 285);--line:oklch(0.32 0.025 290 / .62);--focus:oklch(0.82 0.1 292);--display:"Portfolio Display","Arial Narrow",sans-serif;--sans:"Portfolio Sans",Arial,sans-serif;--script:"Portfolio Script","Brush Script MT",cursive;--shell:min(100% - 48px,1440px);--shell-wide:min(100% - 32px,1560px);--space-1:.5rem;--space-2:2rem;--space-3:3rem;--space-4:4rem;--space-5:6rem;--space-6:9rem;--radius:14px
+  --ink:oklch(0.96 0.01 290);--muted:oklch(0.74 0.025 292);--violet:oklch(0.58 0.19 292);--lavender:oklch(0.80 0.08 292);--bg:oklch(0.10 0 0);--surface:oklch(0.17 0.015 285);--line:oklch(0.32 0.025 290 / .62);--focus:oklch(0.82 0.1 292);--display:"Portfolio Display","Arial Narrow",sans-serif;--sans:"Portfolio Sans",Arial,sans-serif;--script:"Brush Script MT","Snell Roundhand",cursive;--shell:min(100% - 48px,1440px);--shell-wide:min(100% - 32px,1560px);--space-1:.5rem;--space-2:2rem;--space-3:3rem;--space-4:4rem;--space-5:6rem;--space-6:9rem;--radius:14px
 }
 
 *{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--bg)}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.55;overflow-x:hidden}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}button,a{touch-action:manipulation}::selection{background:var(--violet);color:white}:focus-visible{outline:2px solid var(--focus);outline-offset:4px;border-radius:4px}.shell{width:var(--shell);margin-inline:auto}.shell-wide{width:var(--shell-wide);margin-inline:auto}.section{padding-block:clamp(6rem,10vw,10rem);scroll-margin-top:4rem}
