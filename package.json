@@ -1,0 +1,14 @@
+{
+  "name": "svetlana-malchenkova-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "node scripts/build-static.mjs",
+    "start": "python3 -m http.server 4173 --directory dist",
+    "test": "node --test tests/site.test.mjs"
+  },
+  "type": "module"
+}
